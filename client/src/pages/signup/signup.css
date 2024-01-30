@@ -1,0 +1,52 @@
+#signup {
+  background-color: #e8eded;
+  height: 100vh;
+}
+.register {
+  width: 50%;
+  height: 100vh;
+  background: white;
+  margin: auto;
+  padding-top: 5%;
+  border-radius: 5px;
+  box-shadow: white 1px 1px;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: #19ab93;
+  padding: 10px;
+  margin-bottom: 15%;
+}
+table {
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+input {
+  width: 355px;
+  height: 26px;
+  margin-bottom: 40px;
+  align-items: center;
+  border: solid 1px rgb(231, 231, 231);
+  border-radius: 10px;
+}
+select {
+  display: block;
+  margin-left: auto;
+  justify-content: center;
+}
+
+button {
+  display: block;
+  color: #19ab93;
+  margin: auto;
+  padding: 12px 25px;
+  background: #e8eded;
+  margin-top: 5%;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+}
