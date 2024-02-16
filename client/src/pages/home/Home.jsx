@@ -17,7 +17,7 @@ const Home = () => {
     <button>Start Now</button>
 </div>
 <div className="right">
-     <img src="src/moneydonate.jpg" alt="">
+     <img src="src/moneydonate.jpg" alt=""/>
     </div>
   </div>
 
