@@ -33,7 +33,7 @@ nav{
 .logo4 {
     color: rgb(255, 0, 225);
 }
-nav p{
+nav link{
      font: 400;
      background: #19AB93;
      color: black;
@@ -43,11 +43,8 @@ nav p{
 
 }
 
-nav p:hover{
-    padding: 5px 10px;
-    /* margin: 10px; */
-    border-radius: 10px;
-}
+
+
 
 #about{
     display: flex;
@@ -79,7 +76,7 @@ h4{
     font-style: italic;
 }
 
-button{
+link{
     display: block;
     margin: auto;
     background: #19AB93;
