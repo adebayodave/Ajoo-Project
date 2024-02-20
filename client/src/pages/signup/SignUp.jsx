@@ -33,7 +33,7 @@ const SignUp = () => {
               </td>
             </tr>
           </table>
-          <button>create</button>
+          <Link to={'/signup'}>create</Link>
         </form>
       </div>
     </div>
