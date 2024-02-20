@@ -1,13 +1,15 @@
 import React from 'react'
-
+import "./home.css"
+import { moneydonate, monthly, personal } from '../../assets'
+import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div>
       <header>
     <h1 className="logo">A<span className="logo1">J</span> <span className="logo3">O</span><span className="logo4">O</span></h1>
     <nav>
-      <p>Login</p>
-      <p>Sign Up</p>
+      <Link to={'./login'}><p>Login</p></Link>
+      <Link to={'./signup'}><p>Sign Up</p></Link>
     </nav> 
   </header>
   <div id="about">
@@ -17,7 +19,7 @@ const Home = () => {
     <button>Start Now</button>
 </div>
 <div className="right">
-     <img src="src/moneydonate.jpg" alt=""/>
+     <img src={moneydonate} alt=""/>
     </div>
   </div>
 
@@ -25,22 +27,22 @@ const Home = () => {
     <div id="monthly">
         <h2>monthly package</h2>
             <h6>A group of six people to pay #50,000 only for six month(#300,000). confirmation of your registration automatically gives you number for payment</h6>
-            <img src="src/monthly.jpg" alt="" className="pix" />
-            <button className="button">join</button>
+            <img src={monthly} alt="" className="pix" />
+            <Link to={"/signup"} className="button">join</Link>
         </div>
 
         <div id="monthly">
             <h2>weekly package</h2>
                 <h6>A group of eight people to pay #25,000 only for eight weeks. confirmation of your registration automatically gives you number for payment</h6>
-                <img src="src/moneydonate.jpg" alt="" className="pix" />
-                <button className="button">join</button>
+                <img src={moneydonate} alt="" className="pix" />
+                <Link to={'/signup'} className="button">join</Link>
             </div>
 
             <div id="monthly">
                 <h2>savings package</h2>
                     <h6>This is a personal saving package for those who want save for a particular number of days, weeks, and month with specific amonth</h6>
-                    <img src="src/personal.jpg" alt="" className="pix" />
-                    <button className="button">join</button>
+                    <img src={personal} alt="" className="pix" />
+                    <Link to={'signup'} className="button">join</Link>
                 </div>
     </div>
     <footer>
